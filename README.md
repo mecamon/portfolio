@@ -4,11 +4,11 @@ A personal portfolio project to showcase all my best artistic creations and tech
 
 ## Table of contents
 
-* [General info](general-info)
-* [Technologies](technologies)
-* [Launch](launch)
-* [Scope of functionalities](scope-of-functionalities)
-* [Project status](project-status)
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Launch](#launch)
+* [Scope of functionalities](#scope-of-functionalities)
+* [Project status](#project-status)
 
 ## General info
 
