@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<htm lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +12,9 @@
             <nav>
                 <div class="logo" role="presentation">
                     <img src="./resources/icons/dev.svg" alt="Web page logo">
-                    <h1>Carlos Mejía</h1>
+                    <h1 aria-label="Name of the developer">Carlos Mejía</h1>
                 </div>
-                <ul class="menu-bar">
+                <ul class="menu-bar" role="presentation">
                     <li>About me</li>
                     <li>Projects gallery</li>
                     <li>Skills</li>
@@ -22,7 +22,35 @@
                 </ul>
             </nav>
         </header>
-        <main></main>
+        <main>
+            <section class="about-me">
+                <h2>About me</h2>
+                <article>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni 
+                        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 
+                        consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et. 
+                    </p>
+                    <figure>
+                        <img src="./resources/images/profile-example-2.jpg" alt="Profile photo.">
+                        <figcaption id="name">Carlos Alberto Mejía</figcaption>
+                        <figcaption id="profession">Full stack web developer</figcaption>
+                    </figure>
+                </article>
+            </section>
+            <section class="projects-gallery">
+                <h2>Projects gallery</h2>
+                <div class="grid-area">
+                    <div id="project-1"></div>
+                    <div id="project-2"></div>
+                    <div id="project-3"></div>
+                    <div id="project-4"></div>
+                    <div id="project-5"></div>
+                    <div id="project-6"></div>
+                </div>
+            </section>
+        </main>
         <footer></footer>
     </body>   
-</html>
+</htm

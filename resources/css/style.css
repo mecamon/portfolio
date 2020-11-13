@@ -15,8 +15,12 @@ h1, h2 {
   src: url("../fonts/Alata-Regular.ttf")format(ttf);
   color: #232323;
 }
+h2 {
+  text-transform: uppercase;
+}
 nav {
   width: 100%;
+  height: 100px;
   display: flex;
   /* background-color: yellow; */
   justify-content: space-between;
@@ -32,12 +36,68 @@ nav {
 .logo h1{
   font-size: 28px;
 }
+.menu-bar {
+  display: flex;
+  align-items: center;
+}
 .menu-bar li{
-  padding-top: 32px;
-  padding-left: 16px;
+  margin-left: 16px;
   list-style: none;
-  display: inline-block;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
+}
+section.about-me {
+  margin-top: 70px;
+}
+section.about-me article {
+  display: flex;
+}
+article figure figcaption#name {
+  font-size: 20px;
+  text-align: center;
+}
+article figure figcaption#profession {
+  font-size: 18;
+  text-align: center;
+}
+article figure img {
+  width: 284px;
+  height: auto;
+}
+article p {
+  font-size: 20px;
+  line-height: 2;
+}
+section.projects-gallery {
+  margin-top: 70px;
+}
+.grid-area {
+  display: grid;
+  grid-template: repeat(2, 468px) / repeat(4, 255px);
+  gap: 20px;
+}
+#project-1 {
+  background-color: black;
+  grid-area: 1 / 1 / 2 / 3;
+}
+#project-2 {
+  background-color: rgb(226, 135, 49);
+  grid-area: 1 / 3 / 2 / 4;
+}
+#project-3 {
+  background-color: rgb(70, 226, 49);
+  grid-area: 1 / 4 / 2 / 5;
+}
+#project-4 {
+  background-color: rgb(199, 67, 67);
+  grid-area: 2 / 1 / 3 / 2;
+}
+#project-5 {
+  background-color: rgb(67, 199, 177);
+  grid-area: 2 / 2 / 3 / 3;
+}
+#project-6 {
+  background-color: black;
+  grid-area: 2 / 3 / 3 / 5;
 }
