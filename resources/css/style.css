@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Helvetica, sans-serif;
+}
+body {
+  width: 1080px;
+  margin: 0 auto;
+}
+h1, h2 {
+  font-family: 'Alata', sans-serif;
+  src: url("../fonts/Alata-Regular.ttf")format(ttf);
+  color: #232323;
+}
+nav {
+  width: 100%;
+  display: flex;
+  /* background-color: yellow; */
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 76px;
+  height: auto;
+}
+.logo h1{
+  font-size: 28px;
+}
+.menu-bar li{
+  padding-top: 32px;
+  padding-left: 16px;
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
