@@ -36,4 +36,4 @@ There will be many. I will divide the project into parts:
 
 ## Project status
 
-Just created the github repo.
+About me section, projects gallery grid, skills, contact and footer areas created.

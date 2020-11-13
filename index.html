@@ -12,19 +12,19 @@
             <nav>
                 <div class="logo" role="presentation">
                     <img src="./resources/icons/dev.svg" alt="Web page logo">
-                    <h1 aria-label="Name of the developer">Carlos Mejía</h1>
+                    <h1 aria-label="Name of the page">Carlos Mejía</h1>
                 </div>
                 <ul class="menu-bar" role="presentation">
-                    <li>About me</li>
-                    <li>Projects gallery</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects-gallery">Projects gallery</a></li>
+                    <li> <a href="#skills">Skills</a></li>
+                    <li> <a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="about-me">
-                <h2>About me</h2>
+            <section class="about-me" role="presentation">
+                <h2 id="about-me">About me</h2>
                 <article>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
                         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
@@ -34,23 +34,120 @@
                     </p>
                     <figure>
                         <img src="./resources/images/profile-example-2.jpg" alt="Profile photo.">
-                        <figcaption id="name">Carlos Alberto Mejía</figcaption>
-                        <figcaption id="profession">Full stack web developer</figcaption>
+                        <figcaption id="name" aria-label="Name of the page owner">Carlos Alberto Mejía</figcaption>
+                        <figcaption id="profession" aria-label="Occupation">Full stack web developer</figcaption>
                     </figure>
                 </article>
             </section>
-            <section class="projects-gallery">
-                <h2>Projects gallery</h2>
+            <section class="projects-gallery" role="presentation">
+                <h2 id="projects-gallery">Projects gallery</h2>
                 <div class="grid-area">
-                    <div id="project-1"></div>
-                    <div id="project-2"></div>
-                    <div id="project-3"></div>
-                    <div id="project-4"></div>
-                    <div id="project-5"></div>
-                    <div id="project-6"></div>
+                    <div id="project-1" aria-label="Project in position one"></div>
+                    <div id="project-2" aria-label="Project in position two"></div>
+                    <div id="project-3" aria-label="Project in position three"></div>
+                    <div id="project-4" aria-label="Project in position four"></div>
+                    <div id="project-5" aria-label="Project in position five"></div>
+                    <div id="project-6" aria-label="Project in position six"></div>
+                </div>
+            </section>
+            <section class="skills" role="presentation">
+                <h2 id="skills">Skills</h2>
+                <div class="skill-list">
+                    <figure id="html" role="presentation">
+                        <img src="./resources/icons/html-5.svg" alt="">
+                        <figcaption>HTML</figcaption>
+                    </figure>
+                    <figure id="css" role="presentation">
+                        <img src="./resources/icons/css-3.svg" alt="">
+                        <figcaption>CSS</figcaption>
+                    </figure>
+                    <figure id="javascript" role="presentation">
+                        <img src="./resources/icons/javascript.svg" alt="">
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure id="vue" role="presentation">
+                        <img src="./resources/icons/vue-js.svg" alt="">
+                        <figcaption>Vue JS</figcaption>
+                    </figure>
+                    <figure id="node" role="presentation">
+                        <img src="./resources/icons/nodejs.svg" alt="">
+                        <figcaption>Node JS</figcaption>
+                    </figure>
+                    <figure id="mongodb" role="presentation">
+                        <img src="./resources/icons/mongodb.svg" alt="">
+                        <figcaption>MongoDB</figcaption>
+                    </figure>
+                    <figure id="sql" role="presentation">
+                        <img src="./resources/icons/database-sql.svg" alt="">
+                        <figcaption>SQL</figcaption>
+                    </figure>
+                    <figure id="git" role="presentation">
+                        <img src="./resources/icons/git.svg" alt="">
+                        <figcaption>Git</figcaption>
+                    </figure>
+                    <figure id="github" role="presentation">
+                        <img src="./resources/icons/github.svg" alt="">
+                        <figcaption>Github</figcaption>
+                    </figure>
+                    <figure id="react" role="presentation">
+                        <img src="./resources/icons/react.svg" alt="">
+                        <figcaption>React JS</figcaption>
+                    </figure>
+                    <figure id="redux" role="presentation">
+                        <img src="./resources/icons/redux.svg" alt="">
+                        <figcaption>Redux</figcaption>
+                    </figure>
+                    <figure id="npm" role="presentation">
+                        <img src="./resources/icons/npm.svg" alt="">
+                        <figcaption>Node Package Manager</figcaption>
+                    </figure>
+                    <figure id="sass" role="presentation">
+                        <img src="./resources/icons/sass.svg" alt="">
+                        <figcaption>Sass</figcaption>
+                    </figure>
+                    <figure id="test" role="presentation">
+                        <img src="./resources/icons/test.svg" alt="">
+                        <figcaption>Test Driven Development</figcaption>
+                    </figure>
+                    <figure id="postgre" role="presentation">
+                        <img src="./resources/icons/postgresql.svg" alt="">
+                        <figcaption>PostgreSQL</figcaption>
+                    </figure>
+                    <figure id="flutter" role="presentation">
+                        <img src="./resources/icons/flutter.svg" alt="">
+                        <figcaption>Flutter</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section class="contact">
+                <h2 id="contact">Contact</h2>
+                <div class="contact-info" role="presentation">
+                    <span id="message">If you are interested in my work or you just want to give life to 
+                        your web or mobile projects, I am happy to work with you.
+                    </span>
+                    <span>
+                        <img src="./resources/icons/mail.svg" alt="email"> 
+                        arq.camejia@gmail.com
+                    </span>
+                    <span>
+                        <img src="./resources/icons/phone-call.svg" alt="phone number">
+                        829-343-6487
+                    </span>
+                </div>
+                <div class="social-media" role="presentation">
+                    <h3>You can also find me here!</h3>
+                    <div class="media-icons">
+                        <a href="#"><img src="./resources/icons/youtube.svg" alt="YouTube icon"></a>
+                        <a href="#"><img src="./resources/icons/github.svg" alt="Github icon"></a>
+                        <a href="#"><img src="./resources/icons/linkedin.svg" alt="Linked in icon"></a>
+                        <a href="#"><img src="./resources/icons/twitter.svg" alt="Twitter icon"></a>
+                    </div>
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <span>Portfolio site created by Carlos Mejia.</span>
+            <span>All rights reserved 2020 </span>
+        </footer>
     </body>   
 </htm
