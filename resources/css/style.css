@@ -15,6 +15,9 @@ h1, h2, h3, footer span {
   src: url("../fonts/Alata-Regular.ttf")format(ttf);
   color: #232323;
 }
+p, span {
+  color: #414141;
+}
 h2, h3 {
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -86,35 +89,143 @@ section.projects-gallery {
   grid-template: repeat(2, 468px) / repeat(4, 255px);
   gap: 20px;
 }
+.white-text {
+  color: #fff;
+}
+.project-info h4 {
+  padding-bottom: 10px;
+}
+/*Project 1 area-------------------------------*/
 #project-1 {
-  background-color: rgb(255, 255, 255);
+  background-color: #076F8A;
   grid-area: 1 / 1 / 2 / 3;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
 }
+#project-1 h2{
+  writing-mode: vertical-lr;
+  letter-spacing: 6px;
+  color: white;
+}
+#image-project-1 {
+  grid-area: 1 / 1 / 2 / 3;
+  height: 100%;
+  justify-self: end;
+  z-index: 1;
+}
+#info-project-1 {
+  grid-area: 1 / 1 / 2 / 3;
+  width: 88%;
+  padding: 15px;
+  justify-self: end;
+  align-self: end;
+  z-index: 2;
+}
+/*Project 2 area----------------------------*/
 #project-2 {
   background-color: rgb(255, 255, 255);
   grid-area: 1 / 3 / 2 / 4;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
+#image-project-2 {
+  grid-area: 1 / 3 / 2 / 4;
+  width: 100%;
+  align-self: start;
+  z-index: 1;
+}
+#info-project-2 {
+  grid-area: 1 / 3 / 2 / 4;
+  width: 100%;
+  align-self: end;
+  padding: 15px;
+  z-index: 1;
+}
+/*Project 3 area----------------------------*/
 #project-3 {
   background-color: rgb(255, 255, 255);
   grid-area: 1 / 4 / 2 / 5;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
+#image-project-3 {
+  grid-area: 1 / 4 / 2 / 5;
+  width: 100%;
+  align-self: start;
+  z-index: 1;
+}
+#info-project-3 {
+  grid-area: 1 / 4 / 2 / 5;
+  width: 100%;
+  align-self: end;
+  padding: 15px;
+  z-index: 1;
+}
+/*Project 4 area----------------------------*/
 #project-4 {
   background-color: rgb(255, 255, 255);
   grid-area: 2 / 1 / 3 / 2;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
+#image-project-4 {
+  grid-area: 2 / 1 / 3 / 2;
+  width: 100%;
+  align-self: start;
+  z-index: 1;
+}
+#info-project-4 {
+  grid-area: 2 / 1 / 3 / 2;
+  width: 100%;
+  align-self: end;
+  padding: 15px;
+  z-index: 1;
+}
+/*Project 5 area----------------------------*/
 #project-5 {
   background-color: rgb(255, 255, 255);
   grid-area: 2 / 2 / 3 / 3;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
+#image-project-5 {
+  grid-area: 2 / 2 / 3 / 3;
+  width: 100%;
+  align-self: start;
+  z-index: 1;
+}
+#info-project-5 {
+  grid-area: 2 / 2 / 3 / 3;
+  width: 100%;
+  align-self: end;
+  padding: 15px;
+  z-index: 1;
+}
+/*Project 6 area----------------------------*/
 #project-6 {
-  background-color: rgb(255, 255, 255);
+  background-color: #076F8A;
   grid-area: 2 / 3 / 3 / 5;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+#project-6 h2{
+  writing-mode: vertical-lr;
+  letter-spacing: 6px;
+  color: white;
+}
+#image-project-6 {
+  grid-area: 2 / 3 / 3 / 5;
+  height: 100%;
+  justify-self: end;
+  z-index: 1;
+}
+#info-project-6 {
+  grid-area: 2 / 3 / 3 / 5;
+  width: 88%;
+  padding: 15px;
+  justify-self: end;
+  align-self: end;
+  z-index: 2;
 }
 section.skills {
   margin-top: 100px;
@@ -160,9 +271,17 @@ section.skills {
   padding-top: 50px;
 }
 .media-icons a > img {
-  width: 52px;
-  height: auto;
+  width: auto;
+  height: 52px;
   margin-right: 10px;
+}
+#youtube {
+  width: 60px;
+  height: auto;
+}
+#linkedin {
+  width: auto;
+  height: 45px;
 }
 footer {
   margin-top: 76px;

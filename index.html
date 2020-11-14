@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Carlos Mejía Portfolio</title>
         <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
-        <script src="./resources/js/app.js"></script>
     </head>
     <body>
         <header>
@@ -42,12 +41,64 @@
             <section class="projects-gallery" role="presentation">
                 <h2 id="projects-gallery">Projects gallery</h2>
                 <div class="grid-area">
-                    <div id="project-1" aria-label="Project in position one"></div>
+                    <div id="project-1" aria-label="Project in position one">
+                        <h2>Featured</h2>
+                    </div>
                     <div id="project-2" aria-label="Project in position two"></div>
                     <div id="project-3" aria-label="Project in position three"></div>
                     <div id="project-4" aria-label="Project in position four"></div>
                     <div id="project-5" aria-label="Project in position five"></div>
-                    <div id="project-6" aria-label="Project in position six"></div>
+                    <div id="project-6" aria-label="Project in position six">
+                        <h2>Featured</h2>
+                    </div>
+                    <img src="./resources/images/example-image-1.png" id="image-project-1" alt="">
+                    <img src="./resources/images/example-image-2.jpg" id="image-project-2" alt="">
+                    <img src="./resources/images/example-image-3.jpg" id="image-project-3" alt="">
+                    <img src="./resources/images/example-image-4.jpg" id="image-project-4" alt="">
+                    <img src="./resources/images/example-image-5.jpg" id="image-project-5" alt="">
+                    <img src="./resources/images/example-image-6.png" id="image-project-6" alt="">
+                    <div class="project-info" id="info-project-1" role="presentation">
+                        <h4 class="white-text">Project A</h4>
+                        <p class="white-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an  scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                    <div class="project-info" id="info-project-2" role="presentation">
+                        <h4>Project Z</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an  scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                    <div class="project-info" id="info-project-3" role="presentation">
+                        <h4>Project K</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an  scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                    <div class="project-info" id="info-project-4" role="presentation">
+                        <h4>Project X</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an  scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                    <div class="project-info" id="info-project-5" role="presentation">
+                        <h4>Project Y</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an  scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                    <div class="project-info" id="info-project-6" role="presentation">
+                        <h4 class="white-text">Project Y</h4>
+                        <p class="white-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an  scrambled it to make a type specimen book.
+                        </p>
+                    </div>
                 </div>
             </section>
             <section class="skills" role="presentation">
@@ -137,10 +188,10 @@
                 <div class="social-media" role="presentation">
                     <h3>You can also find me here!</h3>
                     <div class="media-icons">
-                        <a href="#"><img src="./resources/icons/youtube.svg" alt="YouTube icon"></a>
-                        <a href="#"><img src="./resources/icons/github.svg" alt="Github icon"></a>
-                        <a href="#"><img src="./resources/icons/linkedin.svg" alt="Linked in icon"></a>
-                        <a href="#"><img src="./resources/icons/twitter.svg" alt="Twitter icon"></a>
+                        <a href="#"><img src="./resources/icons/youtube.svg" alt="YouTube icon" id="youtube"></a>
+                        <a href="#"><img src="./resources/icons/github-gray.svg" alt="Github icon" id="github-gray"></a>
+                        <a href="#"><img src="./resources/icons/linkedin.svg" alt="Linked in icon" id="linkedin"></a>
+                        <a href="#"><img src="./resources/icons/twitter.svg" alt="Twitter icon" id="twitter"></a>
                     </div>
                 </div>
             </section>
@@ -149,5 +200,7 @@
             <span>Portfolio site created by Carlos Mejia.</span>
             <span>All rights reserved 2020 </span>
         </footer>
+        <script src="./resources/js/change-social-icons.js"></script>
+        <script src="./resources/js/modals.js"></script>
     </body>   
 </htm

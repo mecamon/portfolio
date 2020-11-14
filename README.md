@@ -36,4 +36,4 @@ There will be many. I will divide the project into parts:
 
 ## Project status
 
-About me section, projects gallery grid, skills, contact and footer areas created.
+About me section, projects gallery grid, skills, contact and footer areas created. Functions added to social icons with JS.
