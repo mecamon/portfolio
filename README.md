@@ -28,11 +28,7 @@ This is minimalistic portfolio project that focus in showing the necessary infor
 
 ## Scope of functionalities
 
-There will be many. I will divide the project into parts:
-
-1. In the first part of the project I will just have some modals poping with more details about the projects once you click over a card item.
-2. In the second part of the project I want to make the thumbnails change to a gift once you hover over them.
-3. In the third and final part I would like to somehow show the code to recruiters or redirect them to the code. In case it's a private code make them request the code.
+At the end I just added the function of changing the color of the icons in the social media are in the contacts section.
 
 ## Project status
 

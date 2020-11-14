@@ -5,6 +5,7 @@ const githubLink = document.getElementById('github-gray');
 const linkedinLink = document.getElementById('linkedin');
 const twitterLink = document.getElementById('twitter');
 
+
 //Function for changing colors of the social icons
 const colorIcon = function (event) {
     let url;

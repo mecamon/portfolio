@@ -291,3 +291,6 @@ footer span{
   display: block;
   padding-bottom: 10px;
 }
+#info-project-1 {
+  cursor: pointer;
+}
